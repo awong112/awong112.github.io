@@ -4,9 +4,7 @@ body {
     width: 100vw;
     background-color: white;
     justify-content: center;
-    background-image: url("background.jpg");
     background-repeat: no-repeat;
-    background-size: 1000px 1000px;
 }
 
 *{
