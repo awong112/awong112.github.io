@@ -6,104 +6,110 @@
 	<title>Allan Wong Portfolio</title>
 	
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
+<script src="https://kit.fontawesome.com/aed525db91.js" crossorigin="anonymous"></script>
+
 <body>
-	<nav class="navbar">
-		<div class="navdiv">
-			<div class="logo">
-				<h1>Allan Wong</h1>
-			</div>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="resume.html">Resume</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
+	<nav class="socials-navbar">
+		<div class="socials">
+			<p>allanwonghc@gmail.com | 626-348-9926 |</p>
+			<a href="https://www.linkedin.com/in/allan-wong-35940b21a/">
+				<i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
+			<a href="https://github.com/awong112/awong112.github.io">
+				<i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>		
 		</div>
 	</nav>
+	<nav class="navbar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
 
-	<div class="profile">
-		<div class="content">
-			<h1>Allan Wong</h1>
-			<h2>My Story</h2>
-			<div class="portrait">
-				<img src="profile.png" alt="Avatar"
-					 width="700"
-					 height="900" />
+	<header>
+		<div class="banner">
+			<div class="profile">
+				<h1>Allan Wong</h1>
+				<h2>My Story</h2>
+				<p>I am a senior majoring in Business Administration at University of California, Riverside. I am very passionate in digital marketing and creative design. I have a strong interest in technology and I am always looking for new opportunities to learn and grow within the digital world.</p>
 			</div>
-			<p>I am a senior majoring in Business Administration at University of California, Riverside. I am very passionate in digital marketing and creative design. I have a strong interest in technology and I am always looking for new opportunities to learn and grow within the digital world. </p>
+		
+			<div class="portrait">
+				<img src="profile.png" alt="self portrait">
+			</div>
+		</div>
+	</header>	
+
+	<div class="portfolio">
+		<div class="container">
+			<h1>Social Media Designs</h1>
+			<div class="photo-gallery">
+				<div class="column">
+					<div class="photo">
+						<img src="portfolio/b2b.png" alt="b2b">
+					</div>
+					<div class="photo">
+						<img src="portfolio/img1.png" alt="catalina">
+					</div>
+					<div class="photo">
+						<img src="portfolio/img2.png" alt="on-site">
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="photo">
+						<img src="portfolio/img6.png" alt="veterans-day">
+					</div>
+					<div class="photo">
+						<img src="portfolio/jcpenny.png" alt="jcpenny">
+					</div>
+					<div class="photo">
+						<img src="portfolio/marine.png" alt="marine">
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="photo">
+						<img src="portfolio/img3.png" alt="product">
+					</div>
+					<div class="photo">
+						<img src="portfolio/thanksgiving.png" alt="thanksgiving">
+					</div>
+					<div class="photo">
+						<img src="portfolio/christmas.png" alt="christmas">
+					</div>
+				</div>
+				
+				<div class="column">
+					<div class="photo">
+						<img src="portfolio/img4.png" alt="transducer">
+					</div>
+					<div class="photo">
+						<img src="portfolio/img5.jpg" alt="control-panel">
+					</div>
+					<div class="photo">
+						<img src="portfolio/career.png" alt="career-fair">
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	
-
-	<div class="portfolio">
-		<div class="title">
-			<h1>Portfolio</h1>
-			<h3>Business to Business Designs</h3>
+	<div class="video">
+		<h1>Video Editing</h1>
+		<div class="video-container">
+			<video autoplay muted loop src="portfolio/sas.mp4"></video>
 		</div>
-		<div class="row">
-			<div class="column">
-				<img src="./portfolio/img1.png" alt="img1" width="400" />
-			</div>
-			<div class="column">
-				<img src="./portfolio/img2.png" alt="img2" width="400" />
-			</div>
-			<div class="column">
-				<img src="./portfolio/img3.png" alt="img3" width="400" />
-			</div>
-		</div>
+	</div>
 
-		<div class="row">
-			<div class="column">
-				<img src="./portfolio/img4.png" alt="img4" width="400" />
-			</div>
-			<div class="column">
-				<img src="./portfolio/img5.jpg" alt="img5" width="400" />
-			</div>
-			<div class="column">
-				<img src="./portfolio/b2b.png" alt="b2b" width="400" />
-			</div>
-		</div>
-
-		<div class="title">
-			<h3>Business to Consumer Designs</h3>
-			<div class="row">
-				<div class="column">
-					<img src="./portfolio/marine.png" alt="marine" width="400" />
-				</div>
-				<div class="column">
-					<img src="./portfolio/jcpenny.png" alt="jcpenny" width="400" />
-				</div>
-				<div class="column">
-					<img src="./portfolio/career.png" alt="career" width="400" />
-				</div>
-
-			</div>
-
-			<div class="title">
-				<h3>Event Designs</h3>
-			</div>
-
-			<div class="row">
-				<div class="column">
-					<img src="./portfolio/thanksgiving.png" alt="thanksgiving" width="400" />
-				</div>
-				<div class="column">
-					<img src="./portfolio/christmas.png" alt="christmas" width="400" />
-				</div>
-				<div class="column">
-					<img src="./portfolio/new years.png" alt="new years" width="400" />
-				</div>
-			</div>
-
-			<div class="title">
-				<h3>Video Editing</h3>
-					<video autoplay muted src="./portfolio/sas.mp4" width="800"></video>
-				</div>
-			</div>
-
-
-		</div>
+	<footer>
+		<h1>Created by Allan Wong | allanwonghc@gmail.com </h1>
+	</footer>
 
 </body>
 </html>
