@@ -239,3 +239,35 @@ button:hover{
 .contact-info i{
   margin-right: 10px;
 }
+
+.skills-section{
+  background-color: white;
+  text-align: center;
+}
+
+.skills-section h1{
+  padding-top: 40px;
+  font-size: 35px;
+}
+
+.skills{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-gallery{
+  display: inline-block;
+  margin: 50px;
+  width: 500px;
+}
+.skills-gallery .description{
+  padding: 10px;
+  text-align: center;
+  height: 80px;
+}
+.skills-gallery img{
+  width: 100%;
+  height: auto;
+}
